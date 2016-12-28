@@ -6,13 +6,13 @@
 
 这个项目要求使用 **Python 2.7** 并且需要安装下面这些python包：
 
-- [NumPy](http：//www.numpy.org/)
-- [pandas](http：//pandas.pydata.org)
-- [scikit-learn](http：//scikit-learn.org/stable/)
+- [NumPy](http://www.numpy.org/)
+- [pandas](http://pandas.pydata.org)
+- [scikit-learn](http://scikit-learn.org/stable/)
 
 你同样需要安装好相应软件使之能够运行[Jupyter Notebook](http://jupyter.org/)
 
-建议安装[Anaconda](https：//www.continuum.io/downloads), 这是一个已经打包好的python发行版，它包含了我们这个项目需要的所有的库和软件。
+建议安装[Anaconda](https://www.continuum.io/downloads), 这是一个已经打包好的python发行版，它包含了我们这个项目需要的所有的库和软件。
 ### Code
 
 初始代码包含在 `capstone.ipynb` 这个notebook文件中。这里面已经实现好项目。
@@ -25,7 +25,7 @@
 ​这会启动 Jupyter Notebook 并把项目文件打开在你的浏览器中。
 
 ## 数据来源
-竞赛数据[地址](https：//www.kaggle.com/c/house-prices-advanced-regression-techniques)
+竞赛数据[地址](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
 ## 数据
 
