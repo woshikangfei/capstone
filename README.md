@@ -2,39 +2,48 @@
 # Reinforcement Learning
 ## Project: Train a Smartcab How to Drive
 
-### Install
+### 安装
 
-This project requires **Python 2.7** with the [pygame](https://www.pygame.org/wiki/GettingStarted
-) library installed
+这个项目要求使用 **Python 2.7** 并且需要安装下面这些python包：
 
+- [NumPy](http：//www.numpy.org/)
+- [pandas](http：//pandas.pydata.org)
+- [scikit-learn](http：//scikit-learn.org/stable/)
+
+你同样需要安装好相应软件使之能够运行[Jupyter Notebook](http://jupyter.org/)
+
+建议安装[Anaconda](https：//www.continuum.io/downloads), 这是一个已经打包好的python发行版，它包含了我们这个项目需要的所有的库和软件。
 ### Code
 
-Template code is provided in the `smartcab/agent.py` python file. Additional supporting python code can be found in `smartcab/enviroment.py`, `smartcab/planner.py`, and `smartcab/simulator.py`. Supporting images for the graphical user interface can be found in the `images` folder. While some code has already been implemented to get you started, you will need to implement additional functionality for the `LearningAgent` class in `agent.py` when requested to successfully complete the project. 
-
+初始代码包含在 capstone.ipynb` 这个notebook文件中。这里面已经实现好项目。
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `smartcab/` (that contains this README) and run one of the following commands:
+在命令行中，确保当前目录为 `capstone/` 文件夹的最顶层（目录包含本 README 文件），运行下列命令：
 
-```python smartcab/agent.py```  
-```python -m smartcab.agent```
+```jupyter notebook capstone.ipynb```
 
-This will run the `agent.py` file and execute your agent code.
-数据字段
+​这会启动 Jupyter Notebook 并把项目文件打开在你的浏览器中。
+
+## 数据
+
+​这个项目的数据包含在 train.csv` 文件中。这个数据集包含以下属性：
+
 下面是一个简短的版本,你在数据描述文件(data_description)中找对对应的含义。
-SalePrice - 房地产销售的价格（单位：美元）。这是需要预测的目标变量。
-MSSubClass: 建筑等级
-MSZoning: 一般的城区分类
-LotFrontage: 街道的英尺
-LotArea: 面积大小
-Street: 道路类型
-Alley: 小巷类型
-LotShape: 一般的形状
-LandContour:平坦的属性
-Utilities: 可用的公共场地类型
-LotConfig: 更多配置
-LandSlope: 道路坡度属性
-Neighborhood: 艾姆斯市位置范围
-Condition1: 靠近主要道路或铁路
+<br>
+- `SalePrice ` 房地产销售的价格（单位：美元）。这是需要预测的目标变量。
+- ` MSSubClass`建筑等级
+- ` `MSZoning: 一般的城区分类
+- ` `LotFrontage: 街道的英尺
+- ` `LotArea: 面积大小
+- ` `Street: 道路类型
+- ` `Alley: 小巷类型
+- ` `LotShape: 一般的形状
+- ` `LandContour:平坦的属性
+- ` `Utilities: 可用的公共场地类型
+- ` `LotConfig: 更多配置
+- ` `LandSlope: 道路坡度属性
+- ` `Neighborhood: 艾姆斯市位置范围
+- ` `Condition1: 靠近主要道路或铁路
 Condition2: 靠近主要道路或铁路(如果存在)第二
 BldgType: 住宅的类型
 HouseStyle: 住宅的风格
