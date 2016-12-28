@@ -15,7 +15,7 @@
 建议安装[Anaconda](https：//www.continuum.io/downloads), 这是一个已经打包好的python发行版，它包含了我们这个项目需要的所有的库和软件。
 ### Code
 
-初始代码包含在 capstone.ipynb` 这个notebook文件中。这里面已经实现好项目。
+初始代码包含在 `capstone.ipynb` 这个notebook文件中。这里面已经实现好项目。
 ### Run
 
 在命令行中，确保当前目录为 `capstone/` 文件夹的最顶层（目录包含本 README 文件），运行下列命令：
@@ -25,7 +25,7 @@
 ​这会启动 Jupyter Notebook 并把项目文件打开在你的浏览器中。
 
 ## 数据来源
-竞赛数据地址(https：//www.kaggle.com/c/house-prices-advanced-regression-techniques)
+竞赛数据[地址](https：//www.kaggle.com/c/house-prices-advanced-regression-techniques)
 
 ## 数据
 
