@@ -1,6 +1,6 @@
 # Machine Learning Engineer Nanodegree
-# Reinforcement Learning
-## Project: Train a Smartcab How to Drive
+
+## Project: P5 capstone
 
 ### 安装
 
@@ -24,6 +24,9 @@
 
 ​这会启动 Jupyter Notebook 并把项目文件打开在你的浏览器中。
 
+## 数据来源
+竞赛数据地址(https：//www.kaggle.com/c/house-prices-advanced-regression-techniques)
+
 ## 数据
 
 ​这个项目的数据包含在 train.csv` 文件中。这个数据集包含以下属性：
@@ -34,15 +37,15 @@
 - `MSSubClass` 建筑等级
 - `MSZoning ` 一般的城区分类
 - `LotFrontage` 街道的英尺
-- `LotArea` 面积大小
-- `Street `道路类型
-- `Alley `小巷类型
+- `LotArea` 面积大小
+- `Street ` 道路类型
+- `Alley ` 小巷类型
 - `LotShape ` 一般的形状
-- `LandContour`平坦的属性
+- `LandContour`	平坦的属性
 - `Utilities ` 可用的公共场地类型
 - `LotConfig ` 更多配置
 - `LandSlope ` 道路坡度属性
-- `Neighborhood `艾姆斯市位置范围
+- `Neighborhood ` 艾姆斯市位置范围
 - `Condition1 ` 靠近主要道路或铁路
 - `Condition2 ` 靠近主要道路或铁路(如果存在)第二
 - `BldgType ` 住宅的类型
